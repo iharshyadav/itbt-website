@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.height{
+    height: 80vh;
+    background: transparent;
+}
+
+@media (max-width:600px) {
+    .height{
+        width: 85vw;
+        height: 16vh;
+        margin-top: 5vh;
+        background: transparent;
+    }
+    
+}

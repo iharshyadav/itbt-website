@@ -3,16 +3,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-    </ul>
-    <p class="text-center text-muted">© 2021 Company, Inc</p>
-  </footer>
+    <>
+     <div className="main-footer h-72 bg-gray-400 text-white">
+       <div className="pt-10 flex justify-center flex-col items-center">
+         <img src="../../Images/img5.png" className="w-24" alt="" />
+         <h1 className="mt-3">Ajay Kumar Garg Engineering College</h1>
+       </div>
+       <hr className="w-full mt-4 text-white h-1" />
+       <div className='flex gap-2 items-center justify-center mt-4'>
+         <img className='w-10' src="../../Images/Screenshot_2023-11-29_202207-removebg-preview.png" alt="" />
+         <h1 className='font-semibold'>DESIGNED AND DEVELOPED BY:</h1>
+         <h2 className='font-bold'>COMPUTER SOCIETY OF INDIA</h2>
+       </div>
+     </div>
+    </>
   )
 }
 

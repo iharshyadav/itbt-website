@@ -1,21 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Table from './Components/Footer'
-import Footer from './Components/Footer'
+import React from 'react'
+import Home from './Components/Home'
+import { Routes, Route } from "react-router-dom";
+import Registration from './Registration';
+import Contact from './Components/Contact';
+import Commitee from './Commitee';
+import Venues from './Venues';
 
-import CarouselHome from './Components/CarouselHome'
-import NavbarMain from './Components/NavbarMain'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-    <NavbarMain/>
-    <CarouselHome/>
-      <Footer/>
+     {/* <Home/> */}
+     <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/commitee" element={<Commitee/>} />
+        <Route path="/venues" element={<Venues/>} />
+      </Routes>
     </>
   )
 }
