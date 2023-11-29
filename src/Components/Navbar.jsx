@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <>
       <div className="main bg-white">
-      <nav className="bg-white-800 h-28 flex text-black p-4">
+      <nav className="bg-white-800 h-20 flex text-black p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className=" font-bold text-xl">Your Logo</div>
-        <div className="hidden gap-4 md:flex space-x-4">
+        <div className="hidden gap-4 md:flex space-x-4 ">
           <Link to='/'><h1>Home</h1></Link>
           <Link to='/commitee'><h1>Commitee</h1></Link>
           <Link to='/registration'><h1>Registration</h1></Link>
