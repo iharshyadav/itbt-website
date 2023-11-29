@@ -24,22 +24,22 @@ const Home = () => {
           <hr className="w-full" />
           <div className=" md:w-full items-center justify-center w-full">
              <div className="first flex justify-around">
-               <h1>Paper Submission</h1>
-               <h1>31 Jan 2024</h1>
+               <h1>Notification to Authors</h1>
+               <h1>28 Feb 2024</h1>
              </div>
           </div>
           <hr className="w-full" />
           <div className=" md:w-full items-center justify-center w-full">
              <div className="first flex justify-around">
-               <h1>Paper Submission</h1>
-               <h1>31 Jan 2024</h1>
+               <h1>Camera-Ready</h1>
+               <h1>	31 Mar 2024</h1>
              </div>
           </div>
           <hr className="w-full" />
           <div className=" md:w-full items-center justify-center w-full">
              <div className="first flex justify-around">
-               <h1>Paper Submission</h1>
-               <h1>31 Jan 2024</h1>
+                <h1>Conference Date</h1>
+                <h1>	11 May 2024</h1>
              </div>
           </div>
         </div>
