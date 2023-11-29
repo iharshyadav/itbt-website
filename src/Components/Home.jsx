@@ -10,10 +10,10 @@ const Home = () => {
       <Navbar />
       <Carousel />
       <div className="main">
-        <h1 className="mt-10 text-center w-full text-3xl font-semibold text-orange-400 underline">
+        <h1 className="mt-10 text-center w-full text-3xl font-semibold text-purple-950 underline">
           Important Dates
         </h1>
-        <div className="flex flex-col md:flex ml-52 mt-10 w-2/3 items-center justify-evenly border h-52 bg-gray-200 shadow-xl shadow-gray-300">
+        <div className="flex flex-col md:flex ml-52 mt-10 w-2/3 items-center justify-evenly border h-52 bg-gray-200 shadow-2xl shadow-gray-400">
           {/* Left side for names */}
           <div className=" md:w-full">
              <div className="first flex justify-around items-center ">
@@ -38,13 +38,13 @@ const Home = () => {
           <hr className="w-full" />
           <div className=" md:w-full items-center justify-center w-full">
              <div className="first flex justify-around">
-                <h1>Conference Date</h1>
-                <h1>	11 May 2024</h1>
+               <h1>Paper Submission</h1>
+               <h1>31 Jan 2024</h1>
              </div>
           </div>
         </div>
         <div className='mb-12'>
-        <h1 className="mt-10 text-center w-full text-3xl font-semibold text-orange-400 underline mb-10">
+        <h1 className="mt-10 text-center w-full text-3xl font-semibold text-purple-950 underline mb-10">
           ABOUT THE CONFERENCE
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius neque ipsa dicta vero veritatis consequatur, dolor natus, eveniet dolore tempora debitis numquam accusantium facilis, explicabo voluptate maxime. Obcaecati, at?
