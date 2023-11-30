@@ -15,6 +15,7 @@ const Footer = () => {
          <h1 className='font-semibold'>DESIGNED AND DEVELOPED BY:</h1>
          <h2 className='font-bold'>BIG DATA CENTER OF EXCELLENCE</h2>
        </div>
+       
      </div>
     </>
   )
