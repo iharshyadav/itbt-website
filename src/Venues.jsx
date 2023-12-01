@@ -20,22 +20,21 @@ const Venues = () => {
            
           </div>
           <div className="flex flex-wrap gap-4">
-            <div className='w-full sm:w-1/2 p-8'>
-              <div className="text-center w-3/4 sm:w-full">
+            <div className='w-full sm:w-1/2 text-center justify-center p-4 flex-col items-center '>
+              <div className="text-center w-full">
                 <h5 className="text-3xl sm:ml-8  mb-8 underline font-semibold mt-12">About Ghaziabad</h5>
                 <p className="text-lg sm:ml-28 leading-7 text-justify">
-                  Ghaziabad, located in the Indian state of Uttar Pradesh, is a <br /> significant city in the National Capital Region (NCR) of India. <br /> It is an industrial hub known for manufacturing industries and is well-connected to Delhi through road and metro networks. <br /> The city has a rich history, numerous educational institutions, and landmarks like Swarna Jayanti Park and ISKCON Temple.
+                  Ghaziabad, located in the Indian state of Uttar Pradesh, is a  significant city in the National Capital Region (NCR) of India.  It is an industrial hub known for manufacturing industries and is well-connected to Delhi through road and metro networks.  The city has a rich history, numerous educational institutions, and landmarks like Swarna Jayanti Park and ISKCON Temple.
                 </p>
-              </div>
               <div className="text-center">
                 <a href="#myCarousel" className="btn btn-primary mt-4">Tourist Attractions</a>
+              </div>
               </div>
             </div>
             <div className="formMap sm:w-44 w-76 p-6">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467007802247!2d77.49981541461779!3d28.67567358240077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1676826055930!5m2!1sen!2sin"
-                width="350"
-                height="450"
+                className='w-[85vw] sm:w-[45vw] h-[60vh]'
                 title="location"
                 style={{ border: 0 }}
                 allowFullScreen=""
