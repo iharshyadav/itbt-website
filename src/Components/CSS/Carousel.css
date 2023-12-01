@@ -17,9 +17,15 @@ html,body{
 @media (max-width:600px) {
     .height{
         width: 85vw;
-        height: 16vh;
+        height: 26vh;
         margin-top: 5vh;
         background: transparent;
+    }
+
+    .swiper-button-next,.swiper-button-prev {
+        display: none;
+    } {
+        display: none;
     }
     
 }

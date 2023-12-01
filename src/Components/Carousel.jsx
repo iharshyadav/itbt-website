@@ -10,11 +10,17 @@ import "./CSS/Carousel.css"
 const Carousel = () => {
   return (
     <>
+      <div className="main-carousel -z-1">
       <Swiper
         //   spaceBetween={}
         slidesPerView={1}
         // centeredSlides={true}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          // disableOnInteraction: false,
+        }}
+  
         cssMode={true}
         sticky={false}
         freeMode={{ enable: true }}
@@ -42,6 +48,7 @@ const Carousel = () => {
           <img className=" w-full height" src="../../Images/img3.jpg" alt="" />
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }
