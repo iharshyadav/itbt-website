@@ -15,7 +15,8 @@ const Navbar = () => {
       <div className="main bg-white">
         <nav className="bg-white-800 h-20 flex text-black p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <div className=" font-bold text-xl">Your Logo</div>
+            {/* <div className=" font-bold text-xl">Your Logo</div> */}
+            <img className='w-[20vw] sm:w-24' src="../Images/logo.svg" alt="" />
             <h1 className='uppercase w-[31vw] hidden sm:block pt-1 animate-pulse [color:red] font-medium mr-48'>Information technology for business transformation</h1>
             <div className="hidden gap-4 md:flex space-x-4 ">
               <Link to="/">
