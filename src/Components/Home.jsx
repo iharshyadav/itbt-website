@@ -10,40 +10,6 @@ const Home = () => {
       <Navbar />
       <Carousel />
       <div className="main">
-        <h1 className="mt-10 text-center w-full text-3xl font-semibold text-purple-950 underline">
-          Important Dates
-        </h1>
-        <div className="flex flex-col md:flex p-2 ml-2 md:ml-52 mt-10 md:mt-10 w-full sm:w-2/3 items-center justify-evenly border h-52 bg-gray-200 shadow-2xl shadow-gray-400">
-          {/* Left side for names */}
-          <div className="md:w-full   items-center flex text-center">
-            <div className="first flex  gap-28 sm:gap-96 md:w-full items-center justify-center w-full  flex-row  ">
-              <h1>Paper Submission</h1>
-              <h1 className="mt-2 md:mt-0">31 Jan 2024</h1>
-            </div>
-          </div>
-          <hr className="w-full" />
-          <div className="md:w-full items-center justify-center w-full">
-            <div className="first flex  md:flex-row justify-around">
-              <h1>Notification to Authors</h1>
-              <h1 className="mt-2 md:mt-0">28 Feb 2024</h1>
-            </div>
-          </div>
-          <hr className="w-full" />
-          <div className="md:w-full items-center justify-center w-full">
-            <div className="first flex  md:flex-row justify-around">
-              <h1>Camera-Ready</h1>
-              <h1 className="mt-2 md:mt-0">31 Mar 2024</h1>
-            </div>
-          </div>
-          <hr className="w-full" />
-          <div className="md:w-full items-center justify-center w-full">
-            <div className="first flex  md:flex-row justify-around">
-              <h1>Conference Date</h1>
-              <h1 className="mt-2 md:mt-0">11 May 2024</h1>
-            </div>
-          </div>
-        </div>
-
         <div className="mb-12  p-8">
           <h1 className="mt-10 text-center w-full text-3xl font-semibold text-purple-950 underline mb-10">
             ABOUT THE CONFERENCE
