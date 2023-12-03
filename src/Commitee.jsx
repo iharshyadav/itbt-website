@@ -93,7 +93,7 @@ const Commitee = () => {
 
       {popupVisible && (
         <div className="fixed top-[3%] left-[10%] transform -translate-x-1/2 -translate-y-1/2    z-50">
-          <div className="popup-overlay rounded-xl h-[85vh] shadow-2xl bg-[#e3e3e4] w-[80vw] absolute">
+          <div className="popup-overlay rounded-xl h-[85vh] shadow-2xl bg-[#e3e3e4] w-[55vw] absolute">
             <div className="popup-content text-center scrollable-content">
             <div className="bg-gray-100 min-h-screen">
       <div className="container mx-auto">
@@ -103,7 +103,7 @@ const Commitee = () => {
       </div>
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold mb-2 underline ">PATRONS</h2>
-        <div className='flex flex-wrap items-center justify-center  gap-8 '>
+        <div className='flex flex-wrap items-center justify-around  gap-8 '>
         <ul>
           <li className=" text-xl font-bold">Prof. P.K. Chopra</li>
           <li className='mb-2'>HoD ECE, AKGEC</li>
@@ -125,7 +125,7 @@ const Commitee = () => {
       </div>
       <div className="container mx-auto">
         <h2 className="text-2xl mb-3 mt-3 font-bold underline ">ORGANIZING COMMITTEE</h2>
-        <div className='flex flex-wrap items-center justify-center gap-8'>
+        <div className='flex flex-wrap items-center justify-around gap-8'>
         <ul>
         <li className=" text-xl font-bold">Dr. Anu Chaudhary</li>
           <li className='mb-2'>Convener</li>
@@ -155,7 +155,7 @@ const Commitee = () => {
       </div>
       <div className="container mx-auto">
         <h2 className="text-2xl mb-3 font-bold underline ">TECHNICAL & ADVISORY COMMITTEE</h2>
-        <div className='flex  flex-wrap items-center justify-center gap-8'>
+        <div className='flex  flex-wrap items-center justify-around gap-8'>
         <ul>
         <li className=" text-xl font-bold">Dr. M.N. Hoda </li>
           <li className='mb-2' >BVICAM </li>
@@ -186,7 +186,7 @@ const Commitee = () => {
           
           
         </ul>
-        </div><div className='flex flex-wrap items-center justify-center gap-24'>
+        </div><div className='flex flex-wrap items-center justify-around gap-24'>
         <ul >
         <li className="mb-1 text-xl font-bold">Dr. Kavita Saxena </li>
           <li className='mb-2' > CSI </li>
