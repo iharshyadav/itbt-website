@@ -14,10 +14,14 @@ const Navbar = () => {
     <>
       <div className="main bg-white">
         <nav className="bg-white-800 h-20 flex text-black p-4">
-          <div className="container mx-auto flex justify-between items-center">
+          <div className="container mx-auto flex sm:justify-between items-center">
             {/* <div className=" font-bold text-xl">Your Logo</div> */}
-            <img className='w-[20vw] sm:w-24' src="../Images/logo.svg" alt="" />
-            <h1 className='uppercase w-[31vw] hidden sm:block pt-1 animate-pulse [color:red] font-medium mr-48'>Information technology for business transformation</h1>
+            <div className='flex justify-around items-center'>
+               <img className='w-[20vw] sm:w-24 ml-9 sm:ml-0' src="../Images/logo.svg" alt="" />
+               <h1 className='uppercase w-[31vw] hidden sm:block pt-1 animate-pulse [color:red] font-medium mr-48'>Information technology for business transformation</h1>
+               <h1 className='uppercase w-[28vw] text-[3.1vw] pb-8 pt-8 sm:w-[20vw] sm:hidden animate-pulse [color:red] font-medium sm:mr-48 flex-nowrap'>Information <span className='animate-pulse [color:green]'>technology</span> for <span className='animate-pulse [color:blue]'>business</span> transformation</h1>
+               <img src="../../Images/img5.png" className="block sm:hidden w-12 h-12 ml-3 mt-" alt="" />
+            </div>
             <div className="hidden gap-4 md:flex space-x-4 ">
               <Link to="/">
                 <h1>Home</h1>
@@ -36,10 +40,10 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="md:hidden">
-              <nav className=" w-56">
+              <nav className=" w-40">
                 <div className="flex flex-col md:flex-row items-center justify-between md:z-10">
                   <button
-                    className="md:hidden text-black ml-52"
+                    className="md:hidden text-black ml-24 w-16 overflow-hidden"
                     onClick={toggleMenu}
                   >
                     {isMenuOpen ? (
@@ -66,7 +70,7 @@ const Navbar = () => {
 
                   {/* Navbar links */}
                   <div
-                    className={`md:flex md:items-center md:flex-col font-semibold h-60 mt-44 bg-white w-56 ml-24 mb-4 z-10 md:justify-center ${
+                    className={`md:flex md:items-center md:flex-col font-semibold h-60 mt-44 bg-white w-40 mb-4 z-10 md:justify-center overflow-hidden ${
                       isMenuOpen ? "block" : "hidden"
                     }`}
                   >
