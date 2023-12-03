@@ -99,3 +99,25 @@ const Commitee = () => {
 };
 
 export default Commitee; */
+
+
+/* Add a style for the scrollable content */
+.scrollable-content {
+  max-height: 95vh; /* Set your desired max height */
+  overflow-y: auto;
+}
+
+/* Customizing the scrollbar */
+.scrollable-content::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background-color: #eee; /* Set the color of the scrollbar track */
+}
+
