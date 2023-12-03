@@ -46,7 +46,6 @@ const Commitee = () => {
       }
     ];
 
- 
 
  const committees = [
     "Committee 1",
