@@ -14,50 +14,22 @@ const Home = () => {
           <h1 className="mt-10 text-center w-full text-3xl font-semibold text-purple-950 underline mb-10">
             ABOUT THE CONFERENCE
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eius
-            neque ipsa dicta vero veritatis consequatur, dolor natus, eveniet
-            dolore tempora debitis numquam accusantium facilis, explicabo
-            voluptate maxime. Obcaecati, at? Mollitia, eum libero. Assumenda
-            quaerat totam dolorem delectus ea aliquam odio autem molestiae,
-            provident fuga voluptatem. Enim, beatae quos harum libero sed
-            corrupti tenetur fugiat, ducimus impedit exercitationem assumenda
-            rerum? Iure itaque ab ipsum distinctio quos impedit delectus, error,
-            fuga ut dolor totam cumque laudantium asperiores saepe! Rem modi,
-            impedit nulla laborum hic odit, alias necessitatibus veritatis enim
-            omnis voluptate. Est officiis repellendus tempora perferendis
-            laborum facere dignissimos doloribus, soluta consectetur iste? Quod
-            at minima quae deserunt eos illum ratione consequatur, cum natus
-            error vero architecto voluptatibus recusandae iusto exercitationem.
-            Rerum in perspiciatis cumque quaerat, voluptatibus, fugiat nihil
-            unde, veniam delectus aut excepturi cum laborum magnam voluptatum
-            nisi molestias natus illo dignissimos dolorum expedita neque.
-            Excepturi earum pariatur laudantium unde. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Deserunt quisquam explicabo
-            obcaecati sequi, dolor quis nostrum nesciunt eveniet temporibus.
-            Tempora, quos? Hic enim asperiores consectetur voluptatem, inventore
-            explicabo magnam ad Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Voluptatem similique illum id fuga, explicabo
-            tempore vero repudiandae sint vel deleniti unde mollitia ut cum ea,
-            nobis molestiae impedit, rerum fugiat? Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Accusantium hic eum ab perferendis
-            ducimus doloremque ea quibusdam excepturi voluptates alias expedita
-            molestiae, inventore cum libero in consequatur quaerat numquam
-            corporis. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Eos quibusdam libero sunt doloremque tempore pariatur officia beatae
-            ab suscipit repellendus quaerat ut repellat, incidunt assumenda,
-            aperiam exercitationem maxime odio rerum. Culpa, totam ipsa, nam
-            voluptates dolore rem blanditiis magnam soluta ab tenetur nostrum
-            placeat eligendi voluptatem alias quidem quod repellat iste. Aperiam
-            deleniti assumenda eligendi totam est magnam at labore? Cupiditate
-            fugiat neque velit molestias voluptate sed optio placeat deleniti
-            laborum corrupti consequuntur id officia, voluptates quia
-            voluptatibus natus dolores facilis molestiae tempore deserunt
-            exercitationem commodi odio iure! Incidunt, accusantium. Numquam
-            obcaecati sit vitae dolore eum libero ipsa a, inventore fugit
-            temporibus dignissimos dolor. Asperiores corrupti mollitia explicabo
-            suscipit cumque. Dolor nisi laboriosam consequuntur neque cumque
-            quisquam harum consectetur asperiores.
+          <p className="text-justify">
+          The 'Information Technology Business Transformation' conference is a pivotal event that encapsulates the dynamic convergence of technology and business. In a world marked by incessant change and innovation, this conference serves as a crucial nexus for industry leaders, professionals, and visionaries to converge, exchange ideas, and chart the course for the future of IT-driven business transformation.
+
+Our mission is grounded in the commitment to fostering innovation, driving collaboration, and shaping the narrative of technological advancements that influence business strategies. Recognizing the fluid nature of the information technology landscape, our conference endeavors to empower individuals and organizations by providing the knowledge, insights, and connections necessary to thrive in this ever-evolving environment.
+
+Transformation is not merely a buzzword; it is the fundamental force behind progress. In the context of information technology and business, transformation serves as the catalyst that propels organizations forward. Whether it's adopting the latest technologies, embracing digitalization, or reimagining traditional processes, the conference delves deep into the essence of transformation. Attendees will explore the strategies, best practices, and real-world case studies that illuminate the path forward.
+
+The conference is designed to cover a spectrum of key themes and tracks mirroring the diverse facets of information technology business transformation. From Cloud Computing and Artificial Intelligence to Cybersecurity and Digital Innovation, each track is curated to provide a comprehensive understanding of the challenges and opportunities in today's tech-driven business landscape.
+
+Attendees will have the opportunity to explore Digital Innovation and Disruption, understanding how organizations can leverage digital innovation to disrupt traditional models, enhance customer experiences, and drive sustainable growth. The significance of Data Analytics and Insights will be unraveled, delving into the power of data and analytics in informing strategic decisions, improving operational efficiency, and gaining a competitive edge in the market.
+
+Navigating the complex landscape of cybersecurity is a crucial aspect, and the conference will address the evolving threats, compliance challenges, and strategies to safeguard critical assets. Emerging Technologies will take center stage, allowing participants to stay ahead of the curve by gaining insights into the latest technologies reshaping the IT landscape, from blockchain to the Internet of Things (IoT).
+
+Understanding the nuances of cloud computing, from migration strategies to optimal utilization, will be explored in the Strategies for Cloud Adoption track. This comprehensive approach ensures that attendees gain a holistic understanding of the multifaceted nature of IT business transformation.
+
+In conclusion, the 'Information Technology Business Transformation' conference stands as a beacon guiding individuals and organizations through the intricate landscape of IT-driven change. As we embrace the future, the conference provides a unique opportunity to connect, learn, and contribute to the ongoing narrative of transformation that defines the intersection of technology and business. Join us on this transformative journey, where opportunities for growth and excellence abound.
           </p>
         </div>
         <div className="flex flex-wrap p-10">
