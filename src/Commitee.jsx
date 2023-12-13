@@ -37,41 +37,6 @@ const Commitee = () => {
     document.body.removeChild(link);
   };
   
-    // const data = [
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2017"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2018"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2019"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2020"
-    //   },
-    // ];
-
-
-//  const committees = [
-//     "Committee 1",
-//     "Committee 2",
-//     "Committee 3",
-//  ];
-
-//  const advisoryCommittee = [
-//     "Advisory Member 1",
-//     "Advisory Member 2",
-//     "Advisory Member 3",
-//  ];
 
   const openPopup1 = () => {
     setPopupVisible1(true);
@@ -119,10 +84,10 @@ const Commitee = () => {
         <div className="border-b-4 border-indigo-800 w-1/2 sm:w-1/4 mx-auto my-3"></div>
       </div>
 
-      <div className='flex flex-wrap w-full'>
+      <div className="flex flex-col sm:w-full justify-center items-center  sm:flex-row sm:flex-wrap w-full">
         {/* Card-1 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row   justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row justify-around p-5 w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup1}
@@ -153,13 +118,9 @@ const Commitee = () => {
                     </h2>
                     <div className="flex flex-wrap items-center justify-center  gap-8 ">
                       <ul>
-                        <li className=" text-xl font-bold">
-                          Prof. M.P. Dave
-                        </li>
+                        <li className=" text-xl font-bold">Prof. M.P. Dave</li>
                         <li className="mb-2">M.Tech Coordinator</li>
-                        <li className=" text-xl font-bold">
-                          Prof. P.K Chopra
-                        </li>
+                        <li className=" text-xl font-bold">Prof. P.K Chopra</li>
                         <li className="mb-2">HoD ECE </li>
                         <li className=" text-xl font-bold">
                           Prof. I.P. Sharma
@@ -171,9 +132,7 @@ const Commitee = () => {
                         <li> HoD MCA</li>
                       </ul>
                       <ul>
-                        <li className=" text-xl font-bold">
-                          Prof. B.M. Kalra
-                        </li>
+                        <li className=" text-xl font-bold">Prof. B.M. Kalra</li>
                         <li className="mb-2">HoD CSE</li>
                         <li className=" text-xl font-bold">
                           Prof. V.K. Parashar
@@ -196,9 +155,7 @@ const Commitee = () => {
                     </h2>
                     <div className="flex flex-wrap items-center justify-center gap-8">
                       <ul>
-                        <li className=" text-xl font-bold">
-                          Prof. R.P Saw
-                        </li>
+                        <li className=" text-xl font-bold">Prof. R.P Saw</li>
                         <li className="mb-2">Convener</li>
                         <li className=" text-xl font-bold">Prof. Ashiv Shah</li>
                         <li className="mb-2">Co-Convener </li>
@@ -215,7 +172,7 @@ const Commitee = () => {
                         </li>
                         <li> Member </li>
                       </ul>
-                    
+
                       <ul>
                         <li className=" text-xl font-bold">
                           Dr.Anu Chaudhary{" "}
@@ -235,7 +192,6 @@ const Commitee = () => {
                           Ms. Yogita Chhabra{" "}
                         </li>
                         <li className=""> Member</li>
-                      
                       </ul>
                     </div>
                   </div>
@@ -246,7 +202,9 @@ const Commitee = () => {
                     <div className="flex  flex-wrap items-center justify-center gap-8">
                       <ul>
                         <li className=" text-xl font-bold">prof. R.C Joshi</li>
-                        <li className="mb-2">Chancellor,Graphic Era University </li>
+                        <li className="mb-2">
+                          Chancellor,Graphic Era University{" "}
+                        </li>
                         <li className=" text-xl font-bold">
                           Mr. Daman Dev Sood{" "}
                         </li>
@@ -258,19 +216,26 @@ const Commitee = () => {
                         <li className=" text-xl font-bold">
                           Mr. Saurabh Agarwal{" "}
                         </li>
-                        <li className="mb-2">Chairman CSI, Ghaziabad Chapter</li>
-                        <li className=" text-xl font-bold">
-                          Dr. Arun Sharma{" "}
+                        <li className="mb-2">
+                          Chairman CSI, Ghaziabad Chapter
                         </li>
-                        <li className="mb-2">Asocc Prof- IGDTUW and Vice Chairman-CSI Ghaziabad Chapter </li>
-                        <li className=" text-xl font-bold">Dr. Satish Chandra</li>
+                        <li className=" text-xl font-bold">Dr. Arun Sharma </li>
+                        <li className="mb-2">
+                          Asocc Prof- IGDTUW and Vice Chairman-CSI Ghaziabad
+                          Chapter{" "}
+                        </li>
+                        <li className=" text-xl font-bold">
+                          Dr. Satish Chandra
+                        </li>
                         <li className="mb-2">JIIT, Noida</li>
                         <li className=" text-xl font-bold">Dr. Rajesh Tyagi</li>
                         <li className="mb-2">JIMS, Noida</li>
                       </ul>
                       <ul>
                         <li className=" text-xl font-bold">Dr. Deepak Garg</li>
-                        <li className="mb-2">Secretary, IEEE Computer Society</li>
+                        <li className="mb-2">
+                          Secretary, IEEE Computer Society
+                        </li>
                         <li className=" text-xl font-bold">
                           Dr. D.K, Lobiyal{" "}
                         </li>
@@ -284,7 +249,11 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2"> NIT, Jaipur</li>
                         <li className=" text-xl font-bold">Mr. Anil Ji Garg</li>
-                        <li className="mb-2"> Enterpreneur and Honey Secretary - CSI Ghaziabad Chapter</li>
+                        <li className="mb-2">
+                          {" "}
+                          Enterpreneur and Honey Secretary - CSI Ghaziabad
+                          Chapter
+                        </li>
                         <li className=" text-xl font-bold">
                           Dr. Satish Peddoju{" "}
                         </li>
@@ -295,12 +264,12 @@ const Commitee = () => {
                         <li className="mb-2">NITTTR, Chandigarh</li>
                       </ul>
                     </div>
-                    
                   </div>
-                  <button 
-                  className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
-                onClick={handleDownload1}>
-                  Download PDF
+                  <button
+                    className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
+                    onClick={handleDownload1}
+                  >
+                    Download PDF
                   </button>
                 </div>
                 <button
@@ -309,9 +278,6 @@ const Commitee = () => {
                 >
                   ×
                 </button>
-                
-
-
               </div>
             </div>
           </div>
@@ -355,7 +321,7 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2">HoD ECE, AKGEC</li>
                         <li className=" text-xl font-bold">
-                           Prof. S.L. Kapoor
+                          Prof. S.L. Kapoor
                         </li>
                         <li className="mb-2">HoD MCA, AKGEC </li>
                         <li className=" text-xl font-bold">
@@ -376,7 +342,6 @@ const Commitee = () => {
                           Prof. Arshiv Shah
                         </li>
                         <li className="">HoD, TIFAC CORE</li>
-                        
                       </ul>
                     </div>
                   </div>
@@ -386,11 +351,11 @@ const Commitee = () => {
                     </h2>
                     <div className="flex flex-wrap items-center justify-center gap-8">
                       <ul>
-                        <li className=" text-xl font-bold">
-                          Prof. R.P. Saw
-                        </li>
+                        <li className=" text-xl font-bold">Prof. R.P. Saw</li>
                         <li className="mb-2">Convener</li>
-                        <li className=" text-xl font-bold">Dr. Anu Chaudhary</li>
+                        <li className=" text-xl font-bold">
+                          Dr. Anu Chaudhary
+                        </li>
                         <li className="mb-2">Co-Convener </li>
                         <li className=" text-xl font-bold">
                           Ms. Anupama Sharma{" "}
@@ -398,14 +363,15 @@ const Commitee = () => {
                         <li> Member </li>
                       </ul>
                       <ul>
-                      <li className=" text-xl font-bold">Prof. Mamta Bhusry</li>
+                        <li className=" text-xl font-bold">
+                          Prof. Mamta Bhusry
+                        </li>
                         <li className="mb-2">Convener</li>
                         <li className=" text-xl font-bold">Dr. Sunita Yadav</li>
                         <li className="mb-2">Co-Convener</li>
                         <li className=" text-xl font-bold">Mr. J.k. Seth</li>
                         <li>Member</li>
                       </ul>
-                     
                     </div>
                   </div>
                   <div className="container mx-auto">
@@ -454,7 +420,7 @@ const Commitee = () => {
                           Dr. Abhay Bansal{" "}
                         </li>
                         <li className="mb-2"> Amity University</li>
-                         <li className=" text-xl font-bold">
+                        <li className=" text-xl font-bold">
                           Mr. Anil Ji Garg{" "}
                         </li>
                         <li className="mb-2">CSI </li>
@@ -462,9 +428,7 @@ const Commitee = () => {
                           Dr. Vinay Rishiwal MJP{" "}
                         </li>
                         <li className="mb-2">MJP Rohillkhand University</li>
-                        <li className=" text-xl font-bold">
-                          Dr. B.B. Sagar{" "}
-                        </li>
+                        <li className=" text-xl font-bold">Dr. B.B. Sagar </li>
                         <li className="mb-2">BIT, Mesra</li>
                       </ul>
                     </div>
@@ -475,14 +439,15 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2">JIIT,Noida</li>
                       </ul>
-                    
                     </div>
                   </div>
 
-                  <button 
-                  className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
-                  onClick={() => handleDownload2('2017.zip')}>Download PDF</button>
-
+                  <button
+                    className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
+                    onClick={() => handleDownload2("2017.zip")}
+                  >
+                    Download PDF
+                  </button>
                 </div>
                 <button
                   className="right-5 top-0 absolute text-5xl"
@@ -638,44 +603,41 @@ const Commitee = () => {
                           Dr. Abhay Bansal{" "}
                         </li>
                         <li className="mb-2"> Amity University</li>
-                        
+
                         <li className=" text-xl font-bold">
                           Mr. Anil Ji Garg{" "}
                         </li>
                         <li className="mb-2">CSI </li>
                         <li className=" text-xl font-bold">
-                          Dr. Vinay Rishiwal {" "}
+                          Dr. Vinay Rishiwal{" "}
                         </li>
                         <li className="mb-2">MJP Rohillkhand University</li>
-                        <li className=" text-xl font-bold">
-                          Dr. B.B. Sagar {" "}
-                        </li>
+                        <li className=" text-xl font-bold">Dr. B.B. Sagar </li>
                         <li className="mb-2">BIT, Mesra</li>
                         <li className=" text-xl font-bold">
-                          Prof. Manoj K. Pandey {" "}
+                          Prof. Manoj K. Pandey{" "}
                         </li>
                         <li className="mb-2">Vice chairman CSI</li>
-                        
                       </ul>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-24">
-                      
                       <ul>
-                        
                         <li className=" text-xl font-bold">
                           {" "}
                           Dr. Satish Chandra
                         </li>
-                        
+
                         <li className="mb-2">JIIT,Noida</li>
                       </ul>
                     </div>
                   </div>
 
                   <button
-                  className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
-                   onClick={() => handleDownload2('2018.zip')}>Download PDF</button>
-
+                    className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
+                    onClick={() => handleDownload2("2018.zip")}
+                  >
+                    Download PDF
+                  </button>
                 </div>
                 <button
                   className="right-5 top-0 absolute text-5xl"
@@ -686,7 +648,7 @@ const Commitee = () => {
               </div>
             </div>
           </div>
-        )}
+        )}
 
         {/* Card-4 */}
 
@@ -831,43 +793,41 @@ const Commitee = () => {
                           Dr. Abhay Bansal{" "}
                         </li>
                         <li className="mb-2"> Amity University</li>
-                        
+
                         <li className=" text-xl font-bold">
                           Mr. Anil Ji Garg{" "}
                         </li>
                         <li className="mb-2">CSI </li>
                         <li className=" text-xl font-bold">
-                          Dr. Vinay Rishiwal {" "}
+                          Dr. Vinay Rishiwal{" "}
                         </li>
                         <li className="mb-2">MJP Rohillkhand University</li>
-                        <li className=" text-xl font-bold">
-                          Dr. B.B. Sagar {" "}
-                        </li>
+                        <li className=" text-xl font-bold">Dr. B.B. Sagar </li>
                         <li className="mb-2">BIT, Mesra</li>
                         <li className=" text-xl font-bold">
-                          Prof. Manoj K. Pandey {" "}
+                          Prof. Manoj K. Pandey{" "}
                         </li>
                         <li className="mb-2">Vice chairman CSI</li>
-                        
                       </ul>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-24">
-                      
                       <ul>
-                        
                         <li className=" text-xl font-bold">
                           {" "}
                           Dr. Satish Chandra
                         </li>
-                        
+
                         <li className="mb-2">JIIT,Noida</li>
                       </ul>
                     </div>
                   </div>
 
-                  <button className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold " 
-                  onClick={() => handleDownload2('2019.zip')}>Download PDF</button>
-
+                  <button
+                    className=" border-3 border-black text-red-600 p-1 rounded-lg m-4 text-xl font-bold "
+                    onClick={() => handleDownload2("2019.zip")}
+                  >
+                    Download PDF
+                  </button>
                 </div>
                 <button
                   className="right-5 top-0 absolute text-5xl"
@@ -880,7 +840,7 @@ const Commitee = () => {
           </div>
         )}
       </div>
-      
+
       <Footer />
     </>
   );
