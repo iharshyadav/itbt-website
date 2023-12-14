@@ -85,9 +85,13 @@ const Commitee = () => {
       </div>
 
       <div className="flex flex-col sm:w-full justify-center items-center  sm:flex-row sm:flex-wrap w-full">
-        {/* Card-1 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row justify-around p-5 w-1/2 relative">
+
+                                                       {/* Card-1 */}
+
+
+
+        <div className="flex flex-wrap flex-col sm:flex-row justify-around sm:p-12 pr-2 pl-2 sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup1}
@@ -283,9 +287,10 @@ const Commitee = () => {
           </div>
         )}
 
-        {/* Card-2 */}
+                                                           {/* Card-2 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around sm:p-12 pr-2 pl-2 sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup2}
@@ -460,9 +465,9 @@ const Commitee = () => {
           </div>
         )}
 
-        {/* Card-3 */}
+                                                           {/* Card-3 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around sm:p-12 pr-2 pl-2 sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup3}
@@ -650,9 +655,9 @@ const Commitee = () => {
           </div>
         )}
 
-        {/* Card-4 */}
+                                                                  {/* Card-4 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around sm:p-12 pr-2 pl-2 sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup4}
