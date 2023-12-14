@@ -122,7 +122,7 @@ const Commitee = () => {
       <div className='flex flex-wrap w-full'>
         {/* Card-1 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row   justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row   justify-around p-0 sm:p-4 w-full sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup1}
@@ -319,7 +319,7 @@ const Commitee = () => {
 
         {/* Card-2 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-0 sm:p-4 w-full sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup2}
@@ -497,7 +497,7 @@ const Commitee = () => {
 
         {/* Card-3 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-0 sm:p-4 w-full sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup3}
@@ -690,7 +690,7 @@ const Commitee = () => {
 
         {/* Card-4 */}
 
-        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-5 w-1/2 relative">
+        <div className="flex flex-wrap flex-col sm:flex-row  justify-around p-0 sm:p-4 w-full sm:w-1/2 relative">
           <div
             className={`relative text-white rounded-md hover:cursor-pointer shadow-md mx-2 my-4 overflow-hidden `}
             onClick={openPopup4}
