@@ -84,8 +84,9 @@ const Commitee = () => {
         <div className="border-b-4 border-indigo-800 w-1/2 sm:w-1/4 mx-auto my-3"></div>
       </div>
 
-      <div className='flex flex-wrap w-full'>
+      <div className="flex flex-col sm:w-full justify-center items-center  sm:flex-row sm:flex-wrap w-full">
         {/* Card-1 */}
+
 
         <div className="flex flex-wrap flex-col sm:flex-row   justify-around p-0 sm:p-4 w-full sm:w-1/2 relative">
           <div
@@ -118,6 +119,7 @@ const Commitee = () => {
                     </h2>
                     <div className="flex  items-center justify-center  gap-8 ">
                       <ul>
+
                         <li className="text-xs sm:text-xl font-bold">
                           Prof. M.P. Dave
                         </li>
@@ -127,6 +129,7 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">HoD ECE </li>
                         <li className=" text-xs sm:text-xl font-bold">
+
                           Prof. I.P. Sharma
                         </li>
                         <li className='text-xs sm:text-xl'> HoD ME</li>
@@ -141,6 +144,7 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">HoD CSE</li>
                         <li className=" text-xs sm:text-xl font-bold">
+
                           Prof. V.K. Parashar
                         </li>
                         <li className="text-xs sm:text-xl">HoD EN </li>
@@ -168,6 +172,7 @@ const Commitee = () => {
                         <li className=" text-xs sm:text-xl font-bold">Prof. Ashiv Shah</li>
                         <li className="mb-2 text-xs sm:text-xl">Co-Convener </li>
                         <li className=" text-xs sm:text-xl font-bold">
+
                           Ms. Anupama Sharma{" "}
                         </li>
                         <li className='text-xs sm:text-xl'> Member </li>
@@ -180,7 +185,7 @@ const Commitee = () => {
                         </li>
                         <li className='text-xs sm:text-xl'> Member </li>
                       </ul>
-                    
+
                       <ul>
                         <li className=" text-xs sm:text-xl font-bold">
                           Dr.Anu Chaudhary{" "}
@@ -201,6 +206,7 @@ const Commitee = () => {
                         </li>
                         <li className="text-xs sm:text-xl "> Member</li>
                       
+
                       </ul>
                     </div>
                   </div>
@@ -210,9 +216,11 @@ const Commitee = () => {
                     </h2>
                     <div className="flex items-center justify-center gap-8">
                       <ul>
+
                         <li className=" text-xs sm:text-xl  font-bold">prof. R.C Joshi</li>
                         <li className="mb-2 text-xs sm:text-xl ">Chancellor,Graphic Era University </li>
                         <li className=" text-xs sm:text-xl  font-bold">
+
                           Mr. Daman Dev Sood{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl ">IEEE Delhi Section </li>
@@ -223,6 +231,7 @@ const Commitee = () => {
                         <li className="text-xs sm:text-xl  font-bold">
                           Mr. Saurabh Agarwal{" "}
                         </li>
+
                         <li className="mb-2 text-xs sm:text-xl ">Chairman CSI, Ghaziabad Chapter</li>
                         <li className=" text-xs sm:text-xl  font-bold">
                           Dr. Arun Sharma{" "}
@@ -237,6 +246,7 @@ const Commitee = () => {
                         <li className=" text-xs sm:text-xl font-bold">Dr. Deepak Garg</li>
                         <li className="mb-2 text-xs sm:text-xl ">Secretary, IEEE Computer Society</li>
                         <li className=" text-xs sm:text-xl  font-bold">
+
                           Dr. D.K, Lobiyal{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl ">JNU, New Delhi</li>
@@ -247,10 +257,12 @@ const Commitee = () => {
                         <li className=" text-xs sm:text-xl  font-bold">
                           Dr. Emmanuel S. Pilli{" "}
                         </li>
+
                         <li className="mb-2 text-xs sm:text-xl "> NIT, Jaipur</li>
                         <li className="text-xs sm:text-xl  font-bold">Mr. Anil Ji Garg</li>
                         <li className="mb-2 text-xs sm:text-xl "> Enterpreneur and Honey Secretary - CSI Ghaziabad Chapter</li>
                         <li className="text-xs sm:text-xl  font-bold">
+
                           Dr. Satish Peddoju{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl ">HOD MCA </li>
@@ -260,12 +272,13 @@ const Commitee = () => {
                         <li className="mb-2 text-xs sm:text-xl ">NITTTR, Chandigarh</li>
                       </ul>
                     </div>
-                    
                   </div>
+
                   <button 
                   className=" border-3 border-black text-red-600 p-1 rounded-lg mb-10 mt-4 text-sm sm:text-xl font-bold "
                 onClick={handleDownload1}>
                   Download PDF
+
                   </button>
                 </div>
                 <button
@@ -274,9 +287,6 @@ const Commitee = () => {
                 >
                   ×
                 </button>
-                
-
-
               </div>
             </div>
           </div>
@@ -321,6 +331,7 @@ const Commitee = () => {
                         <li className="mb-2 text-xs sm:text-xl">HoD ECE, AKGEC</li>
                         <li className=" text-xs sm:text-xl font-bold">
                            Prof. S.L. Kapoor
+
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">HoD MCA, AKGEC </li>
                         <li className=" text-xs sm:text-xl font-bold">
@@ -342,6 +353,7 @@ const Commitee = () => {
                         </li>
                         <li className="text-xs sm:text-xl">HoD, TIFAC CORE</li>
                         
+
                       </ul>
                     </div>
                   </div>
@@ -358,6 +370,7 @@ const Commitee = () => {
                         <li className=" text-xs sm:text-xl font-bold">Dr. Anu Chaudhary</li>
                         <li className="mb-2 text-xs sm:text-xl">Co-Convener </li>
                         <li className=" text-xs sm:text-xl font-bold">
+
                           Ms. Anupama Sharma{" "}
                         </li>
                         <li className='text-xs sm:text-xl'> Member </li>
@@ -369,8 +382,8 @@ const Commitee = () => {
                         <li className="mb-2 text-xs sm:text-xl">Co-Convener</li>
                         <li className=" text-xs sm:text-xl font-bold">Mr. J.k. Seth</li>
                         <li className='text-xs sm:text-xl'>Member</li>
+
                       </ul>
-                     
                     </div>
                   </div>
                   <div className="container mx-auto">
@@ -420,6 +433,7 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2 text-xs sm:text-xl"> Amity University</li>
                          <li className=" text-xs sm:text-xl font-bold">
+
                           Mr. Anil Ji Garg{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">CSI </li>
@@ -431,6 +445,7 @@ const Commitee = () => {
                           Dr. B.B. Sagar{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">BIT, Mesra</li>
+
                       </ul>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-24">
@@ -441,12 +456,12 @@ const Commitee = () => {
                         <li className="mb-2 text-xs sm:text-xl">JIIT,Noida</li>
                        
                       </ul>
-                    
                     </div>
                   </div>
                   <button 
                         className=" border-3 border-black text-red-600 p-1 rounded-lg mb-10 mt-4  text-sm sm:text-xl font-bold "
                          onClick={() => handleDownload2('2017.zip')}>Download PDF</button>
+
                 </div>
                 <button
                   className="right-5 top-0 absolute text-5xl"
@@ -621,10 +636,10 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">Vice chairman CSI</li>
                         
+
                       </ul>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-24">
-                      
                       <ul>
                         
                         <li className=" text-xs sm:text-xl font-bold">
@@ -633,12 +648,15 @@ const Commitee = () => {
                         </li>
                         
                         <li className="mb-2 text-xs sm:text-xl">JIIT,Noida</li>
+
                       </ul>
                     </div>
                   </div>
                   <button
+
                     className=" border-3 border-black text-red-600 p-1 rounded-lg mb-10 mt-4  text-sm sm:text-xl font-bold "
                           onClick={() => handleDownload2('2018.zip')}>Download PDF</button>
+
                 </div>
                 <button
                   className="right-5 top-0 absolute text-5xl"
@@ -649,7 +667,7 @@ const Commitee = () => {
               </div>
             </div>
           </div>
-        )}
+        )}
 
 
 
@@ -814,10 +832,10 @@ const Commitee = () => {
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">Vice chairman CSI</li>
                         
+
                       </ul>
                     </div>
                     <div className="flex flex-wrap items-center justify-center gap-24">
-                      
                       <ul>
                         
                         <li className=" text-xs sm:text-xl font-bold">
@@ -826,6 +844,7 @@ const Commitee = () => {
                         </li>
                         
                         <li className="mb-2 text-xs sm:text-xl">JIIT,Noida</li>
+
                       </ul>
                     </div>
                   </div>
@@ -833,6 +852,7 @@ const Commitee = () => {
                   <button 
                     className=" border-3 border-black text-red-600 p-1 rounded-lg mb-10 mt-4  text-sm sm:text-xl font-bold "
                     onClick={() => handleDownload2('2019.zip')}>Download PDF</button>
+
 
                 </div>
                 <button
@@ -846,7 +866,7 @@ const Commitee = () => {
           </div>
         )}
       </div>
-      
+
       <Footer />
     </>
   );

@@ -18,9 +18,9 @@ const Navbar = () => {
             {/* <div className=" font-bold text-xl">Your Logo</div> */}
             <div className='flex justify-around items-center'>
                <img className='w-[20vw] sm:w-24 ml-9 sm:ml-0' src="../Images/logo.svg" alt="" />
-               <h1 className='uppercase w-[31vw] hidden sm:block pt-1 animate-pulse [color:red] font-medium mr-48'>Information <span className='animate-pulse [color:green]'>technology</span> for <span className='animate-pulse [color:blue]'>business</span> transformation</h1>
+               <h1 className='uppercase w-[31vw] hidden sm:block pt-1 animate-pulse [color:red] font-medium mr-48'>Information technology for business transformation</h1>
                <h1 className='uppercase w-[28vw] text-[3.1vw] pb-8 pt-8 sm:w-[20vw] sm:hidden animate-pulse [color:red] font-medium sm:mr-48 flex-nowrap'>Information <span className='animate-pulse [color:green]'>technology</span> for <span className='animate-pulse [color:blue]'>business</span> transformation</h1>
-               <img src="../../Images/Logo-akg.png" className="block  w-12 h-12 ml-3 mt-" alt="" />
+               <img src="../../Images/img5.png" className="block sm:hidden w-12 h-12 ml-3 mt-" alt="" />
             </div>
             <div className="hidden gap-4 md:flex space-x-4 ">
               <Link to="/">
