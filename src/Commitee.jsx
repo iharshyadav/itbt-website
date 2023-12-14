@@ -37,41 +37,6 @@ const Commitee = () => {
     document.body.removeChild(link);
   };
   
-    // const data = [
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2017"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2018"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2019"
-    //   },
-    //   {
-    //     image_url: "../Images/venue3.jpg",
-    //     link: "",
-    //     overlayText: "Proceedings 2020"
-    //   },
-    // ];
-
-
-//  const committees = [
-//     "Committee 1",
-//     "Committee 2",
-//     "Committee 3",
-//  ];
-
-//  const advisoryCommittee = [
-//     "Advisory Member 1",
-//     "Advisory Member 2",
-//     "Advisory Member 3",
-//  ];
 
   const openPopup1 = () => {
     setPopupVisible1(true);
@@ -474,26 +439,9 @@ const Commitee = () => {
                           Dr. Satish Chandra{" "}
                         </li>
                         <li className="mb-2 text-xs sm:text-xl">JIIT,Noida</li>
-                        {/* <li className=" text-xl font-bold">Dr. B.B. Sagar</li>
-                        <li className="mb-2">BIT, Mesra</li>
-                        <li className=" text-xl font-bold">Mr. Vinay Gupta</li>
-                        <li className="mb-2">Executive director GMA</li> */}
+                       
                       </ul>
-                      {/* <ul>
-                        <li className=" text-xl font-bold">
-                          Dr. Robin Porwal{" "}
-                        </li>
-                        <li className="mb-2"> LBSIM</li>
-                        <li className=" text-xl font-bold">
-                          {" "}
-                          Dr. Satish Chandra
-                        </li>
-                        <li className="mb-2">JIIT,Noida </li>
-                        <li className=" text-xl font-bold">
-                          Prof. Manoj K. Pandey
-                        </li>
-                        <li className="mb-2">Vice chairman CSI</li>
-                      </ul> */}
+                    
                     </div>
                   </div>
                   <button 
